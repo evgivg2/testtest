@@ -1,13 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="style.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV Ivanov Evgeny</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="normalize.css" />
 </head>
+
 <body>
-    <h1 class="mename">EVGENY IVANOV WAL</h1>
+  <nav class="cv_nav"></nav>
+  <main class="cv_main">
+    <div class="cv_main_contact">
+      <section class="cv_img"><img src="assets//photo/cv-photo.svg" class="cv_main_photo" alt="Photo of Ivanov Evgeny" /></section>
+      <section class="cv_header">
+        <h1>Evgenii Ivanov</h1>
+        <h2>Junior Frontend Developer</h2>
+      </section>
+      <section class="cv_contact">
+        <h2>Contacts</h2>
+        <ul class="cv_contact_ul">
+          <li><img class="cv_contact_icon" src="/assets/icons/telephone.svg" alt="telephone" /> +7 (981) 898-72-73</li>
+          <li><img class="cv_contact_icon" src="/assets/icons/envelope.svg" alt="envelope" />capral293@gmail.ru</li>
+          <li><img class="cv_contact_icon" src="/assets/icons/telegram.svg" alt="telegram" />@evgivg2</li>
+        </ul>
+      </section>
+      <section class="cv_skills">
+        <h2>Skills</h2>
+        <ul class="cv_skills_ul">
+          <li>HTML Basics</li>
+          <li>CSS Basics</li>
+          <li>GIT, GitHub</li>
+        </ul>
+      </section>
+      <section class="cv_languages">
+        <h2>Languages</h2>
+        <ul class="cv_languages_ul">
+          <li>Russian - native speaker</li>
+          <li>English - B1</li>
+        </ul>
+      </section>
+    </div>
+    <div class="cv_main_aboutme">
+      <section class="cv_about">
+        <h2>About me</h2>
+        <p>My main specialization is "Electrification and Automation of Agriculture. After the institute I worked as an electrician in food production. Immediately after getting higher education, I moved from the small town of Glazov to St. Petersburg. I got a job as an engineer to develop diesel power plants of modular design. Having worked in this field for a long time, I realized that it was necessary to get a new profession. I chose the profession of a front-end developer. I have easy self-learning. I believe that if it is invented by a human it can be learned. I like new challenges in my work. Excellent teamwork.
+        </p>
+      </section>
+      <section class="cv_education">
+        <h2>Education</h2>
+        <div class="education">
+          <p style="font-weight:bold">Izhevskaya Agricultural Academy</p>
+          <p>Year: 2010-2014</p>
+          <p>Specialization: Electrification and Automation of Agriculture</p>
+        </div>
+      </section>
+      <section class="cv_cources">
+        <h2>Cources</h2>
+        <ul class="cv_cources_ul">
+          <li>Mimo app</li>
+          <li>RS Schools «JavaScript/Front-end. Stage 0»</li>
+        </ul>
+      </section>
+      <section class="code_example">
+        <h2>Code example</h2>
+        <pre class="code">
+<span class="code1">const</span> codeStart = <span class="code2">"Code "</span>;
+<span class="code1">const</span> learn = codeStart + <span class="code2">"comming soon..."</span>;
+<span class="code3">console</span>.log(learn);
+                    </pre>
+
+      </section>
+    </div>
+  </main>
+  <footer class="cv_footer">
+    <a href="https://rs.school/js-stage0/"><img class="logo_rsschool" src="/assets/icons/rsschool.svg" alt="Logo RS School"></a>
+    <span class="year_footer">2022</span>
+    <a href="https://github.com/evgivg2"><img class="logo_github" src="/assets/icons/github.svg" alt="Logo GitHub"></a>
+  </footer>
 </body>
 </html>
